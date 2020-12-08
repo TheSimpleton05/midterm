@@ -62,7 +62,7 @@ int main(){
 			printf("Maaf, kami hanya menyediakan 5 jenis barang\n\n");
 		}	
 	}
-	while (barang>5 && barang <0);
+	while (barang>5);
 	tagihan(barang); //fungsi tagihan
 	printf("\n Terima Kasih untuk kunjungannya");
 	return 0;
